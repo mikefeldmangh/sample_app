@@ -8,6 +8,7 @@ def full_title(page_title)
 end
 
 def sign_in(user)
+  debugger
   visit signin_path
   fill_in "Email",    with: user.email
   fill_in "Password", with: user.password

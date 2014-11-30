@@ -49,7 +49,7 @@ gem 'jquery-rails', '2.0.2'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
 
 group :test do
   gem 'capybara', '1.1.2'
